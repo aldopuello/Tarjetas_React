@@ -1,4 +1,4 @@
-export const simpsonsCharacter = [
+export const futbolCharacter = [
   {
     id: 1,
     title: "Neymar JR",
@@ -9,42 +9,34 @@ export const simpsonsCharacter = [
   },
   {
     id: 2,
-    title: "Bart Simpson",
+    title: "Cristiano Ronaldo",
     description:
-      "Bartholomew J. Simpson​​ es uno de los personajes ficticios protagonistas de la serie de televisión de dibujos animados Los Simpson.",
+      "El delantero portugués, de 38 años, ya había terminado con una molestia física la final del Campeonato de Clubes Árabes.",
     image:
-      "https://mantenlosimpleblog.files.wordpress.com/2014/06/bart-simpson-principal.png",
+      "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk2NzQ0NjUxMDk1NDE4NDk4/cristiano-ronaldo-festeja.jpg",
   },
   {
     id: 3,
-    title: "Lisa Simpson",
+    title: "Lionel Messi",
     description:
-      "Lisa Marie Simpson​​ es un personaje de la serie de televisión de dibujos animados Los Simpson. Es la hija mediana.",
+      "Lionel Andrés Messi Cuccittini (Rosario, 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista.",
     image:
-      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/the-simpsons-lisa-1589201259.jpg?crop=0.567xw:1.00xh;0.241xw,0&resize=1200:*",
+      "https://fotografias.lasexta.com/clipping/cmsimages01/2023/06/20/01954F9F-DFED-484D-9D7D-AE315E149439/leo-messi_104.jpg?crop=2861,2861,x689,y0&width=1200&height=1200&optimize=low&format=webply",
   },
   {
     id: 4,
-    title: "Marge Simpson",
+    title: "Kylian Mbappé",
     description:
-      "Marjorie Bouvier Marge Simpson es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson.",
+      "Kylian Mbappé Lottin París, Isla de Francia, 20 de diciembre de 1998) es un futbolista francés que juega como delantero en el Paris Saint-Germain F. C. y en la selección francesa.",
     image:
-      "https://i.discogs.com/WI38UGun7TKKNg04MTHK0yV-I1Yb75sdJ_t0GEermmo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI2MzMx/MzAtMTMzNTcyMDM5/MC5wbmc.jpeg",
+      "https://assets-es.imgfoot.com/media/cache/1200x1200/mbappevsengland.jpg",
   },
   {
     id: 5,
-    title: "Ned Flanders",
+    title: "Erling Haaland",
     description:
-      "Nedward Flanders, ​ más conocido como Ned, es un personaje ficticio de la serie de televisión de dibujos animados Los Simpson.",
+      "Erling Braut Haaland Leeds, 21 de julio de 2000) es un futbolista noruego que juega como delantero en el Manchester City F. C. de la Premier League de Inglaterra7​ y es internacional absoluto con la selección de Noruega.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuKGF3E_nG35hCYfs7PZ56NJ06QR4hzvY_20tSdXri2w&s",
-  },
-  {
-    id: 6,
-    title: "Milhouse Van Houten",
-    description:
-      "Milhouse Mussolini Van Houten es un personaje ficticio de la serie animada Los Simpson.",
-    image:
-      "https://upload.wikimedia.org/wikipedia/en/1/11/Milhouse_Van_Houten.png",
+      "https://upload.wikimedia.org/wikipedia/commons/1/10/Erling_Haaland_2023.jpg",
   },
 ];

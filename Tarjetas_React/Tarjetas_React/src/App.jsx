@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "./Components/Card";
 import Contador from "./Components/Contador";
 import { useEffect, useState } from "react";
-import { simpsonsCharacter } from "./Data";
+import { futbolCharacter } from "./Data";
 
 
 function App() {
@@ -24,37 +24,39 @@ function App() {
   }
 
   useEffect(() => {
-    setdata(simpsonsCharacter)
-  }, [simpsonsCharacter])
+    setdata(futbolCharacter)
+  }, [futbolCharacter])
 
   return (
     <>
-      <div style={{ marginTop: "2rem" }}>
-        <div className="row">
-          {data.map((x) => (
-            <div className="col" key={x.id}>
-              <Card dataList={x} count={count} />
-            </div>
-          ))}
+    <div >
+        <div style={{ marginTop: "2rem" }}>
+          <div className="row">
+            {data.map((x) => (
+              <div className="col" key={x.id}>
+                <Card dataList={x} count={count} />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
 
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
 
-          padding: "2rem",
-        }}
-      >
-        <Contador
-          count={count}
-          data={data}
-          onClickIncrementar={onClickIncrementar}
-          onClickDescrementar={onClickDescrementar}
-          onClickReset={onClickReset}
-        />
+            padding: "2rem",
+          }}
+        >
+          <Contador
+            count={count}
+            data={data}
+            onClickIncrementar={onClickIncrementar}
+            onClickDescrementar={onClickDescrementar}
+            onClickReset={onClickReset}
+          />
+        </div>
       </div>
     </>
   )

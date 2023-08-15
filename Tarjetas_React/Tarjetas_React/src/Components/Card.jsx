@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Card({ dataList, count }) {
   return (
-    <div>
+    <div >
       <div className="card" style={{ width: "12rem" }}>
         <img
           src={dataList.image}
