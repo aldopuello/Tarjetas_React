@@ -12,15 +12,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   const onClickIncrementar = () => {
-    setcount((prevState) => prevState + 1)
+    setCount((prevState) => prevState + 1)
   }
 
   const onClickDescrementar = () => {
-    setcount((prevState) => (prevState > 0 ? prevState - 1 : 0))
+    setCount((prevState) => (prevState > 0 ? prevState - 1 : 0))
   }
 
   const onClickReset = () => {
-    setcount(0);
+    setCount(0)
   }
 
   useEffect(() => {
