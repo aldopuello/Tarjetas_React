@@ -8,7 +8,7 @@ export default function Contador({
 }) {
   return (
     <div className="card">
-      <div
+      <div class="card-subtitle mb-2"
         style={{
           display: "flex",
           flexDirection: "column",
@@ -23,7 +23,7 @@ export default function Contador({
         <div
           style={{
             display: "flex",
-            justifyContent: "space-evenly",
+            justifyContent: "center",
             marginBottom: "1rem",
           }}
         >
